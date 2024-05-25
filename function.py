@@ -5,4 +5,16 @@ def push_button(param=350):
     y = x+3
     print(y)
 
-push_button(250)    
+push_button(250)  
+
+class Dog():
+    def __init__(self, y):
+        self.y = y
+        
+
+    def chase(self):
+        print("hello")
+        print(self.y)
+
+dog = Dog(5)       
+dog.chase()
