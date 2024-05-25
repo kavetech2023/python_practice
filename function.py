@@ -8,13 +8,15 @@ def push_button(param=350):
 push_button(250)  
 
 class Dog():
-    def __init__(self, y):
+    def __init__(self, y, z):
         self.y = y
+        self.z = z
         
 
     def chase(self):
         print("hello")
         print(self.y)
+        print(self.z)
 
-dog = Dog(5)       
+dog = Dog(5,6)       
 dog.chase()
