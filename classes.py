@@ -8,5 +8,5 @@ class Dog():
         print(self.y)
 
 yes = Dog(6,7)
-yes.stash
+yes.stash()
        
