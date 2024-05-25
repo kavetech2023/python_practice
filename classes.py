@@ -7,6 +7,6 @@ class Dog():
         print(self.x)   
         print(self.y)
 
-yes = Dog()
+yes = Dog(6,7)
 yes.stash
        
