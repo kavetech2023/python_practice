@@ -2,5 +2,6 @@ body{
 color: aliceblue;
 }
 .box{
+    display: flex;
     flex-direction:space-between;
 }
