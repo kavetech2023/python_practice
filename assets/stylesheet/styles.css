@@ -1,3 +1,6 @@
 body{
 color: aliceblue;
 }
+.box{
+    flex-direction:space-between;
+}
