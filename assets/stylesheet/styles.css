@@ -1,6 +1,19 @@
 body{
 color: aliceblue;
 }
+/* Header */
+.header{
+    width:auto;
+    display:flex;
+    background:green;
+    padding: 10px;
+}
+.inner{
+    display: flex;
+}
+.logo{
+    flex-direction: space-around;
+}
 /* Flexbox Container starts */
 .flexbox{
     display: flex;
