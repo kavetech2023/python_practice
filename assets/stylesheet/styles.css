@@ -14,6 +14,8 @@ color: aliceblue;
 /* Flexbox Items starts */
 .box{
     background-color:red;
+    padding:5px;
+    border-radius: 7px;
     height:100px;
     width:100px;
 }
@@ -26,6 +28,8 @@ color: aliceblue;
 }
 .item{
     width:70px;
+    border-radius: 5px;
+    padding:7px;
     background:blue;
     height:70px;
 }
