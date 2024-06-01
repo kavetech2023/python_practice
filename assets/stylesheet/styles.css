@@ -10,7 +10,7 @@ color: aliceblue;
     background:green;
     padding: 10px;
 }
-.header.inner{
+.header.inner_nav{
     width:100%;
     display: flex;
     justify-content: space-between;
@@ -51,3 +51,4 @@ color: aliceblue;
     background:blue;
     height:70px;
 }
+
