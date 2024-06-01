@@ -18,3 +18,14 @@ color: aliceblue;
     width:100px;
 }
 /* Flexbox Items Ends */
+
+/* flexItemsTest */
+.flexItemsTest{
+    display:flex;
+    flex-direction: flex-start;
+}
+.item{
+    width:70px;
+    background:blue;
+    height:70px;
+}
