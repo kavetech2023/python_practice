@@ -5,14 +5,17 @@ color: aliceblue;
 .header{
     width:auto;
     display:flex;
+    justify-content: center;
+    align-items: center;
     background:green;
     padding: 10px;
 }
 .inner{
     display: flex;
+    justify-content: space-between;
 }
 .logo{
-    flex-direction: space-around;
+    display:flex;
 }
 /* Flexbox Container starts */
 .flexbox{
