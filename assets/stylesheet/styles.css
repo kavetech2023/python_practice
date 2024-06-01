@@ -5,7 +5,8 @@ color: aliceblue;
 .flexbox{
     display: flex;
     flex-direction:row;
-    justify-content: space-evenly;
+    flex-wrap: wrap;
+    justify-content: space-between;
     align-items: center;
 }
 /* Flexbox Container Ends */
