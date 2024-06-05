@@ -18,4 +18,19 @@ def car():
 
 car()    
 
-   
+# functions.py
+
+class Carmodel:
+    def __init__(self, model, carid, carpaint):
+        self.model = model  # Add this line
+        self.carid = carid
+        self.carpaint = carpaint
+
+    def carpainttype(self):
+        if self.carpaint == "red":
+            print("the car is red")    
+
+car = Carmodel(model="mazda", carid=1, carpaint="red")
+print(car.model)  # This should now print "mazda"
+car.carpainttype()
+             
