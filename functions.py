@@ -21,16 +21,15 @@ car()
 # functions.py
 
 class Carmodel:
-    def __init__(self, model, carid, carpaint):
-        self.model = model  # Add this line
-        self.carid = carid
-        self.carpaint = carpaint
+    def __init__(self, **kwargs):
+        self.model = kwargs.get('model', None)  # Default value if 'model' not provided
+        self.carid = kwargs.get('carid', None)  # Default value if 'carid' not provided
+        self.carpaint = kwargs.get('carpaint', None)  # Default value if 'carpaint' not provided
 
     def carpainttype(self):
         if self.carpaint == "red":
-            print("the car is red")    
+            print("The car is red")  # Capitalized 'The' for better readability
 
 car = Carmodel(model="mazda", carid=1, carpaint="red")
 print(car.model)  # This should now print "mazda"
 car.carpainttype()
-             
