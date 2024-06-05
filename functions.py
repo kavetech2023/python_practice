@@ -14,7 +14,7 @@ def car():
         print("Thanks for placing an order with us. Have a nice day!")
         extras = input("Would you like to check out the extra features?: ")
         if extras == "yes":
-            print("Please click the link to check out extra features")    
+            print("Please click the <a href=''>link</a> to check out extra features")    
 
 car()    
 
@@ -25,7 +25,7 @@ class Carmodel:
         self.model = kwargs.get('model', None)  # Default value if 'model' not provided
         self.carid = kwargs.get('carid', None)  # Default value if 'carid' not provided
         self.carpaint = kwargs.get('carpaint', None)  # Default value if 'carpaint' not provided
-
+ 
     def carpainttype(self):
         if self.carpaint == "red":
             print("The car is red")  # Capitalized 'The' for better readability
