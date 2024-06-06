@@ -6,7 +6,7 @@ class Car:
         self.color = color
 
     def drive(self):
-        print("This car is driving")
+        print("This "+self.make+" is driving")
 
     def stop(self):
-        print("This car has stopped")
+        print("This " +self.make+ " has stopped")
