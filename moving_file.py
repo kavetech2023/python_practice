@@ -1,4 +1,13 @@
 import os
 
-source = ""
-destination = ""
+source = "copy.txt"
+destination = "C:\\Users\\kavet\\OneDrive\\Desktop\\text2.txt"
+
+try:
+    if os.path.exists(destination):
+        print("There is already a file there")
+    else:
+        os.replace(source,destination)
+        print(source+ " was moved")
+except FileNotFoundError:
+    print(source+ "was not found")
