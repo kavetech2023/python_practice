@@ -39,6 +39,17 @@ def display_score(correct_guesses, guesses):
     score = int((correct_guesses/len(questions))*100)  
     print("Your score is: " + str(score)+ "%")     
 
+def play_again():
+    
+    response = input("Do you want to play again?: (yes or no) ")
+    response = response.upper()
+
+    if response == "YES":
+        return True
+    else:
+        return False
+
+
 def new_game():
     guesses = []
     correct_guesses = 0
@@ -65,14 +76,15 @@ def new_game():
 
 new_game()
 
+while play_again():
+    new_game()
+
+print("Byeeee!")    
 
 
 
 
     
 
-def play_again():
-    
-    response = input("Do you want to play again?: (yes or no) ")
 
 #Define the questions
