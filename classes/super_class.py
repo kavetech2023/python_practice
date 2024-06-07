@@ -11,7 +11,14 @@ class Square(Rectangle):
     def __init__(self,length,width):
         super().__init__(length,width)
 
+    def area(self):
+        print(self.length*self.width)
+
 
 class Cube(Rectangle):
     def __init__(self,length,width,height):
         super().__init__(length,width)
+
+
+square = Square(3,3)
+square.area()
