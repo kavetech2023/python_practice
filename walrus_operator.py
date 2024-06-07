@@ -14,7 +14,9 @@ while True:
 
 # (2) Code with walrus operator ->
 
-
+foods = list()
+while food := input("What food do you like?: ") != "quit"
+    foods.append(food)
 
 
 
