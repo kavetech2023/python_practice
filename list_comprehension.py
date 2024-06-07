@@ -4,47 +4,12 @@
 
 # syntax = [expression for item in iterable if condition == True]
 
-# (1) Without list comprehension
+students = [100, 90, 80, 70, 60, 50, 40, 30, 20, 10]
 
-store = [("shirt", 20.00),
-            ("pants", 25.00),
-            ("jackets", 50.00),
-            ("socks", 10.00)      
-    ]           
-store_euros = []    
-for i in store:
-    store_euros.append((i[0], i[1]*0.82))
+# passed_students = list(filter(lambda x: x >= 60, students))
 
+# passed_students = [i for i in students if i >= 60]
 
-for i in store_euros:
-    print(i)       
+passed_students = [i if i >= 60 else "Failed" for i in students]
 
-# (2) With list comprehension
-
-store_euros = [(i[0], i[1]*0.82) for i in store]
-
-for i in store_euros:
-    print(i)
-
-# (3) Using map() and lambda
-    
-store_euros = list(map(lambda data: (data[0], data[1]*0.82), store))
-
-for i in store_euros:
-    print(i)
-
-# (4) Using filter() and lambda
-
-friends = [("Rachel", 25),
-                ("Monica", 27),
-                ("Phoebe", 29),
-                ("Joey", 24),
-                ("Chandler", 29),
-                ("Ross", 30)
-        ]
-
-age = lambda data: data[1] >= 18
-praying_buddies = list(filter(age, friends))
-
-for i in praying_buddies:
-    print(i)
+print(passed_students)  # [100, 90, 80, 'Failed', 'Failed', 'Failed', 'Failed', 'Failed', 'Failed', 'Failed']
