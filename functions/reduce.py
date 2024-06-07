@@ -6,5 +6,11 @@
 import functools
 
 letters = ["H", "E", "L", "L", "O"]
+
+# function that takes 2 arguments
 word = functools.reduce(lambda x, y: x + y, letters)
-print(word)  # HELLO
+
+
+# ["H", "E", "L", "L", "O"] reduced to "HELLO"
+
+print(word)  
