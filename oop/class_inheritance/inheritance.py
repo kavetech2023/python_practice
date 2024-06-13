@@ -24,4 +24,4 @@ hawk = Hawk()
 
 rabbit.eat()
 fish.sleep()
-hawk.eat()
+hawk.run()
