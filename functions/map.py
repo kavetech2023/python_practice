@@ -8,8 +8,7 @@ store = [("shirt", 20.00),
          ("socks", 10.00)      
 ]
 
-# data[0]=  item name
-# data[1]=  item price
+# data[0]=  item name, data[1] = price
 
 to_euros = lambda data: (data[0], data[1]*0.82)
 
