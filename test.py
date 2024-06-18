@@ -1,3 +1,7 @@
+"""
+Guessing game - Generates a random number
+                A while loop runs (is false) until your input matches the random number generated (true).
+"""
 import random
 
 def guess_number():
