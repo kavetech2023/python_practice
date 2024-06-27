@@ -8,3 +8,6 @@
 # dictionary = {key: value for key, value in iterable if function(key)}
 
 
+dictionary = {char: 0 for char in 'aeiou'}
+
+print(dictionary)
