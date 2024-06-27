@@ -1,5 +1,7 @@
-"""exception = events detected during execution that interrupt
-               the flow of a program"""
+"""
+exception = events detected during execution that interrupt
+               the flow of a program
+"""
 try:
     numerator = int(input("Enter a number to divide: "))
     denominator = int(input("Enter a number to divide by: "))

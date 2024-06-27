@@ -1,6 +1,8 @@
-# list comprehension = a way to create a new list with less syntax
-#                      can mimic map(), filter() and lambda functions
-#                      lists created using list comprehension are enclosed in []
+"""
+list comprehension = a way to create a new list with less syntax
+                      can mimic map(), filter() and lambda functions
+                      lists created using list comprehension are enclosed in []
+"""
 
 # syntax = [expression for item in iterable if condition == True]
 
